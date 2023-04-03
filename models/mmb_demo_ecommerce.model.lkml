@@ -59,7 +59,7 @@ explore: order_items {
 
   ################################################# SEGMENTAZIONE PER GRUPPI ######################################################
 
-  sql_always_where: ${users.country} in ("{{ _user_attributes['colombia_filter'] }}", "{{ _user_attributes['australia_filter'] }}") ;;
+  #sql_always_where: ${users.country} in ("{{ _user_attributes['colombia_filter'] }}", "{{ _user_attributes['australia_filter'] }}") ;;
 
   #################################################################################################################################
 
